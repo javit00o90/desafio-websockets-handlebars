@@ -1,0 +1,82 @@
+#productosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#productosContainerHome {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.productCard {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.productCard h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.productCard p {
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.productCard .price {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.productCard .stock {
+    color: #28a745;
+}
+
+.productCard:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-left: 40%;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

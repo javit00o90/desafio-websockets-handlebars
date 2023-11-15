@@ -1,0 +1,57 @@
+<h1>Real Time Products</h1> <a href="/"><h3>Home</h3></a>
+
+<div id="productosContainer"></div>
+    <h2>Agregar Producto</h2>
+    <form id="productForm" action="/realtimeproducts" method="post">
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" required>
+
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" required></textarea>
+
+    <label for="price">Price:</label>
+    <input type="number" id="price" name="price" step="0.01" required>
+
+    <label for="code">Code:</label>
+    <input type="text" id="code" name="code" required>
+
+    <label for="stock">Stock:</label>
+    <input type="number" id="stock" name="stock" required>
+
+    <label for="category">Category:</label>
+    <input type="text" id="category" name="category" required>
+
+    <label class="status"  for="status">Status:</label>
+    <input type="checkbox" id="status" name="status">
+
+    <label for="thumbnails">Thumbnails (comma-separated):</label>
+    <input type="text" id="thumbnails" name="thumbnails" required>
+
+    <button type="submit">Agregar Producto</button>
+    </form>
+    <h2>Actualizar Producto</h2>
+    <form id="updateProductForm">
+    <label for="updateProductId">ID:</label>
+    <input type="number" id="updateProductId" name="updateProductId" required>
+    <label for="updateTitle">New title:</label>
+    <input type="text" id="updateTitle" name="updateTitle" required>
+    <label for="updateDescription">New description:</label>
+    <textarea id="updateDescription" name="updateDescription" required></textarea>
+    <label for="updatePrice">New price:</label>
+    <input type="number" id="updatePrice" name="updatePrice" step="0.01" required>
+    <label for="updateCode">New code:</label>
+    <input type="text" id="updateCode" name="updateCode" required>
+    <label for="updateStock">New stock:</label>
+    <input type="number" id="updateStock" name="updateStock" required>
+    <label for="updateCategory">New category:</label>
+    <input type="text" id="updateCategory" name="updateCategory" required>
+    <label class="status" for="updateStatus">New state:</label>
+    <input type="checkbox" id="updateStatus" name="updateStatus">
+
+
+    <button type="button" onclick="updateProduct()">Actualizar Producto</button>
+</form>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/realTimeProducts.js"></script>

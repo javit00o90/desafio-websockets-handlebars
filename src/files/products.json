@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Azucar",
+    "description": "Description 1",
+    "price": 19.99,
+    "thumbnails": [
+      "image1_1.jpg",
+      "image1_2.jpg",
+      "image1_3.jpg"
+    ],
+    "code": "P001",
+    "stock": 100,
+    "category": "Productos Básicos",
+    "status": true
+  },
+  {
+    "id": 2,
+    "title": "Harina",
+    "description": "Description 2",
+    "price": 29.99,
+    "thumbnails": [
+      "image2_1.jpg",
+      "image2_2.jpg",
+      "image2_3.jpg"
+    ],
+    "code": "P002",
+    "stock": 50,
+    "category": "New Product Category",
+    "status": true
+  },
+  {
+    "id": 3,
+    "title": "Leche",
+    "description": "Description 3",
+    "price": 10.99,
+    "thumbnails": [
+      "image3_1.jpg",
+      "image3_2.jpg",
+      "image3_3.jpg"
+    ],
+    "code": "P003",
+    "stock": 20,
+    "category": "Productos Básicos",
+    "status": true
+  },
+  {
+    "id": 4,
+    "title": "Aceite",
+    "description": "Description 4",
+    "price": 15.99,
+    "thumbnails": [
+      "image4_1.jpg",
+      "image4_2.jpg",
+      "image4_3.jpg"
+    ],
+    "code": "P004",
+    "stock": 15,
+    "category": "Productos Básicos",
+    "status": true
+  },
+  {
+    "id": 5,
+    "title": "Yerba",
+    "description": "Description 5",
+    "price": 29.99,
+    "thumbnails": [
+      "image5_1.jpg",
+      "image5_2.jpg",
+      "image5_3.jpg"
+    ],
+    "code": "P005",
+    "stock": 50,
+    "category": "Productos Básicos",
+    "status": true
+  },
+  {
+    "id": 6,
+    "title": "Galletitas",
+    "description": "Description 6",
+    "price": 16.99,
+    "thumbnails": [
+      "image6_1.jpg",
+      "image6_2.jpg",
+      "image6_3.jpg"
+    ],
+    "code": "P006",
+    "stock": 35,
+    "category": "Productos Básicos",
+    "status": true
+  },
+  {
+    "id": 7,
+    "title": "Vinagre",
+    "description": "Description 7",
+    "price": 13.99,
+    "thumbnails": [
+      "image7_1.jpg",
+      "image7_2.jpg",
+      "image7_3.jpg"
+    ],
+    "code": "P007",
+    "stock": 11,
+    "category": "Productos Básicos",
+    "status": true
+  },
+  {
+    "id": 8,
+    "title": "Arroz",
+    "description": "Description 8",
+    "price": 12.99,
+    "thumbnails": [
+      "image8_1.jpg",
+      "image8_2.jpg",
+      "image8_3.jpg"
+    ],
+    "code": "P008",
+    "stock": 12,
+    "category": "Productos Básicos",
+    "status": true
+  },
+  {
+    "id": 9,
+    "title": "Fideos",
+    "description": "Description 9",
+    "price": 11.99,
+    "thumbnails": [
+      "image9_1.jpg",
+      "image9_2.jpg",
+      "image9_3.jpg"
+    ],
+    "code": "P009",
+    "stock": 25,
+    "category": "Productos Básicos",
+    "status": true
+  },
+  {
+    "id": 11,
+    "title": "Cacao",
+    "description": "Description 10",
+    "price": 9.99,
+    "thumbnails": [
+      "image10_1.jpg",
+      "image10_2.jpg",
+      "image10_3.jpg"
+    ],
+    "code": "P0010",
+    "stock": 50,
+    "category": "Productos Básicos",
+    "status": true
+  }
+]
